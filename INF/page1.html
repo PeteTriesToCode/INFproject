@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Visualization Explained</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #fc7d7d;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        section {
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        p, ul > li
+        {
+            font-size: 25px;
+        }
+        
+        body > header > a
+        {
+            border: none;
+            border-radius: 15px;
+            text-decoration: none;
+            padding: 10px 10px 10px 10px;
+            color: black;
+            background-color: white;
+            transition: 250ms;
+        }
+
+        body > header > a:hover
+        {
+            background-color: rgb(0, 0, 0);
+            box-shadow: 0px 0px 20px rgb(255, 0, 0);
+            color: white;
+            border-radius: 1200px;
+        }
+
+        .bestprac > ul > li
+        {
+            font-size: 25px;
+            margin-top: 15px;
+        }
+
+        footer 
+        {
+            background-color: #f1f1f1;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section
+        {
+            box-shadow: 0px 0px 8px grey;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Data Visualization Explained</h1>
+        <br>
+        <a href="index.html">Home</a>
+    </header>
+
+    <section>
+        <section>
+            <h2>Introduction to Data Visualization</h2>
+            <p>Data visualization is the graphical representation of information and data. It uses visual elements like charts, graphs, and maps to help people understand the patterns, trends, and insights within the data.</p>
+    
+            <h2>Importance of Data Visualization</h2>
+            <p>Data visualization is crucial for making sense of large and complex datasets. It facilitates better decision-making by providing a clear and concise way to interpret information. Visualizations make it easier to identify relationships, outliers, and patterns within the data.</p>
+    
+            <h2>Types of Data Visualizations</h2>
+            <p>There are various types of data visualizations, including bar charts, line graphs, pie charts, scatter plots, and more. Each type serves a specific purpose, and choosing the right visualization depends on the nature of the data and the insights you want to convey.</p>
+            <ul>
+                <li><strong>Bar Charts:</strong> Used to represent categorical data with rectangular bars.</li>
+                <li><strong>Line Charts:</strong> Connect data points with straight lines, ideal for showing trends over time.</li>
+                <li><strong>Pie Charts:</strong> Display parts of a whole as slices of a circle, suitable for percentage data.</li>
+                <li><strong>Scatter Plots:</strong> Show the relationship between two variables through individual data points.</li>
+                <li><strong>Heatmaps:</strong> Visualize data in a matrix format, with colors indicating values.</li>
+                <li><strong>Choropleth Maps:</strong> Use color-coded regions to represent data values on a geographical map.</li>
+                <li><strong>Tree Maps:</strong> Display hierarchical data using nested rectangles, with size indicating values.</li>
+                <li><strong>Radar Charts:</strong> Ideal for comparing multiple quantitative variables on a two-dimensional plane.</li>
+                <li><strong>Bubble Charts:</strong> Similar to scatter plots but with an additional dimension represented by the size of bubbles.</li>
+                <li><strong>Word Clouds:</strong> Represent text data with words displayed in varying sizes based on frequency.</li>
+            </ul>
+        </section>
+        
+        <section>        
+            <h2>Most Commonly used Charts</h2>
+            <div style="display: flex; justify-content: space-between; margin-top: 20px;">
+                <div style="flex: 1;">
+                    <h1 style="text-align: center;">Bar Charts:</h1>
+                    <a href="#">
+                        <img src="barcharts.png" alt="Photo 1" style="width: 100%; height: auto;">
+                    </a>
+                </div>
+                <div style="flex: 1; margin-left: 10px; margin-right: 10px;">
+                    <h1 style="text-align: center;">Line Charts:</h1>
+                    <a href="#">
+                        <img src="linecharts.png" alt="Photo 2" style="width: 100%; height: auto;">
+                    </a>
+                </div>
+                <div style="flex: 1;">
+                    <h1 style="text-align: center;">Pie Charts:</h1>
+                    <a href="#">
+                        <img src="piecharts.jpeg" alt="Photo 3" style="width: 100%; height: auto; margin-top: 40px;">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="bestprac">
+            <h2>Best Practices in Data Visualization</h2>
+            <ul>
+                <li><strong>Know Your Audience:</strong> Understand who will be viewing your visualizations and tailor them to the audience's level of expertise and interests.</li>
+                <li><strong>Choose the Right Chart Type:</strong> Select a visualization type that best represents the patterns and trends in your data.</li>
+                <li><strong>Simplify and Declutter:</strong> Avoid unnecessary elements that can distract from the main message. Keep your visualizations clean and focused.</li>
+                <li><strong>Use Consistent Colors and Styles:</strong> Maintain consistency in colors, fonts, and styles throughout your visualizations.</li>
+                <li><strong>Provide Context:</strong> Include axis labels, titles, and legends to provide context and help users understand the information presented.</li>
+                <li><strong>Ensure Data Accuracy:</strong> Double-check your data for accuracy before creating visualizations.</li>
+                <li><strong>Use Appropriate Scaling:</strong> Choose appropriate scales for your axes to accurately represent the data.</li>
+                <li><strong>Highlight Key Insights:</strong> Emphasize important data points or trends by using annotations, colors, or labels.</li>
+                <li><strong>Interactivity (if applicable):</strong> If your visualization is interactive, ensure that it enhances the user's understanding without causing confusion.</li>
+                <li><strong>Responsive Design:</strong> Ensure that your visualizations are responsive and display well on various screen sizes.</li>
+                <li><strong>Test and Iterate:</strong> Test your visualizations with a small sample audience if possible. Gather feedback and be willing to iterate on your designs for improvement.</li>
+                <li><strong>Storytelling:</strong> Arrange your visualizations in a logical order to tell a story.</li>
+                <li><strong>Accessibility:</strong> Ensure that your visualizations are accessible to all users, including those with disabilities.</li>
+                <li><strong>Data Labeling:</strong> Include data labels when necessary to provide specific information about data points.</li>
+            </ul>
+        </section>
+        
+
+    </section>
+    <footer>
+        © 2023 INF Project | All Rights Reserved | ChillyCheeseFries4Life
+    </footer>
+</body>
+</html>

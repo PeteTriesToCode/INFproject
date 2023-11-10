@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma;
+  width: 1902px;
+}
+header {
+  background-color: rgb(151, 0, 0);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 8px grey;
+  color: white;
+}
+
+header > h1
+{
+  letter-spacing: 20px;
+  font-weight: bold;
+  font-size: 80px;
+  font-family: monospace;
+  padding: 0px;
+  margin: 0px;
+}
+
+header > h2
+{
+  text-shadow: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.page-button{
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px rgb(0, 0, 0);
+  background-color: #4d4d4d;
+  color: rgb(253, 253, 253);
+  padding: 8px 16px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+.page-button:hover {
+  background-color: #ff0000;
+  color: white;
+  border-radius: 50px;
+  box-shadow: 2px 2px 5px black;
+}
+.content {
+  padding: 20px;
+}
+footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+.intro > div
+{
+  display: block;
+}
+
+.navbar-footer
+{
+  background-color: #ddd;
+}
+
+.navbar-footer > h2
+{
+  display: block;
+  margin: 5px;
+  padding: 0px;
+  text-shadow: 2px 2px 4px grey;
+}
+
+.ul-main
+{
+  align-content: center;
+  justify-content: center;
+  display: flex;
+}
+
+.ul-main > ul > li
+{
+  list-style-type: none;
+}
+
+.ul1, .ul2
+{
+  margin: 0px 20px 20px 20px;
+  padding: 0px;
+}
+
+.container {
+  display: flex;
+}
+
+.references
+{
+  background-color: grey;
+}
+
+.references > h2
+{
+  text-align: center;
+}
+
+h2, h3, p, ul
+{
+  text-align: center;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+h1
+{
+  font-size: 45px;
+}
+
+h2
+{
+  font-size: 35px;
+}
+
+h3
+{
+  font-size: 30px;
+  
+}
+
+
+
+p
+{
+  font-size: 25px;
+}
+
+li
+{
+  font-size: 25px;
+}
+
+body
+{
+  background-color: black;
+}
+
+.intro
+{
+  margin: 20px;
+  margin-top: 0px;
+  padding: 20px;
+  color: white;
+  background-color: rgb(117, 0, 123);
+  box-shadow: 0px 0px 10px rgb(171, 1, 168);
+  border-radius: 5px;
+  text-shadow: black;
+}
+
+.main
+{
+  margin: 20px;
+  padding: 20px;
+  color: white;
+  background-color: rgb(3, 11, 160);
+  box-shadow: 0px 0px 10px rgb(73, 1, 168);
+  border-radius: 5px;
+}
+
+.references
+{
+  color: white;
+  text-shadow: 4px 4px 4px black;
+  letter-spacing: 10px;
+  padding: 10px;
+}
+
+.references > h2
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+.references > ul > li
+{
+  letter-spacing: 0px;
+  list-style: none;
+  font-size: 15px;
+}
